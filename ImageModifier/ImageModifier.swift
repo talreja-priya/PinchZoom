@@ -1,6 +1,6 @@
 //
 //  ImageModifier.swift
-//  PinchZoomImage
+//  ImageModifier
 //
 //  Created by Priya Talreja on 31/07/22.
 //
@@ -114,3 +114,4 @@ struct PinchToZoom: ViewModifier {
             .overlay(PinchZoom(minScale: minScale, maxScale: maxScale, scale: $scale, isPinching: $isPinching))
     }
 }
+

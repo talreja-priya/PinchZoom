@@ -7,67 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		013549712896925400E6C89E /* PinchZoomImageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013549702896925400E6C89E /* PinchZoomImageApp.swift */; };
-		013549732896925400E6C89E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013549722896925400E6C89E /* ContentView.swift */; };
-		013549752896925600E6C89E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 013549742896925600E6C89E /* Assets.xcassets */; };
-		013549782896925600E6C89E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 013549772896925600E6C89E /* Preview Assets.xcassets */; };
-		0135497F2896931500E6C89E /* ImageModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0135497E2896931500E6C89E /* ImageModifier.swift */; };
-		013549822896A12200E6C89E /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 013549812896A12200E6C89E /* SDWebImageSwiftUI */; };
+		013549912896A35500E6C89E /* ImageModifierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013549902896A35500E6C89E /* ImageModifierApp.swift */; };
+		013549932896A35500E6C89E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013549922896A35500E6C89E /* ContentView.swift */; };
+		013549952896A35600E6C89E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 013549942896A35600E6C89E /* Assets.xcassets */; };
+		013549982896A35600E6C89E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 013549972896A35600E6C89E /* Preview Assets.xcassets */; };
+		0135499F2896A36700E6C89E /* ImageModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0135499E2896A36700E6C89E /* ImageModifier.swift */; };
+		013549A22896A3A700E6C89E /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 013549A12896A3A700E6C89E /* SDWebImageSwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0135496D2896925400E6C89E /* PinchZoomImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinchZoomImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		013549702896925400E6C89E /* PinchZoomImageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchZoomImageApp.swift; sourceTree = "<group>"; };
-		013549722896925400E6C89E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		013549742896925600E6C89E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		013549772896925600E6C89E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		0135497E2896931500E6C89E /* ImageModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModifier.swift; sourceTree = "<group>"; };
+		0135498D2896A35500E6C89E /* ImageModifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageModifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		013549902896A35500E6C89E /* ImageModifierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModifierApp.swift; sourceTree = "<group>"; };
+		013549922896A35500E6C89E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		013549942896A35600E6C89E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		013549972896A35600E6C89E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0135499E2896A36700E6C89E /* ImageModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0135496A2896925400E6C89E /* Frameworks */ = {
+		0135498A2896A35500E6C89E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				013549822896A12200E6C89E /* SDWebImageSwiftUI in Frameworks */,
+				013549A22896A3A700E6C89E /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		013549642896925400E6C89E = {
+		013549842896A35500E6C89E = {
 			isa = PBXGroup;
 			children = (
-				0135496F2896925400E6C89E /* PinchZoomImage */,
-				0135496E2896925400E6C89E /* Products */,
+				0135498F2896A35500E6C89E /* ImageModifier */,
+				0135498E2896A35500E6C89E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0135496E2896925400E6C89E /* Products */ = {
+		0135498E2896A35500E6C89E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0135496D2896925400E6C89E /* PinchZoomImage.app */,
+				0135498D2896A35500E6C89E /* ImageModifier.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0135496F2896925400E6C89E /* PinchZoomImage */ = {
+		0135498F2896A35500E6C89E /* ImageModifier */ = {
 			isa = PBXGroup;
 			children = (
-				0135497E2896931500E6C89E /* ImageModifier.swift */,
-				013549702896925400E6C89E /* PinchZoomImageApp.swift */,
-				013549722896925400E6C89E /* ContentView.swift */,
-				013549742896925600E6C89E /* Assets.xcassets */,
-				013549762896925600E6C89E /* Preview Content */,
+				0135499E2896A36700E6C89E /* ImageModifier.swift */,
+				013549902896A35500E6C89E /* ImageModifierApp.swift */,
+				013549922896A35500E6C89E /* ContentView.swift */,
+				013549942896A35600E6C89E /* Assets.xcassets */,
+				013549962896A35600E6C89E /* Preview Content */,
 			);
-			path = PinchZoomImage;
+			path = ImageModifier;
 			sourceTree = "<group>";
 		};
-		013549762896925600E6C89E /* Preview Content */ = {
+		013549962896A35600E6C89E /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				013549772896925600E6C89E /* Preview Assets.xcassets */,
+				013549972896A35600E6C89E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -75,42 +75,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0135496C2896925400E6C89E /* PinchZoomImage */ = {
+		0135498C2896A35500E6C89E /* ImageModifier */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0135497B2896925600E6C89E /* Build configuration list for PBXNativeTarget "PinchZoomImage" */;
+			buildConfigurationList = 0135499B2896A35600E6C89E /* Build configuration list for PBXNativeTarget "ImageModifier" */;
 			buildPhases = (
-				013549692896925400E6C89E /* Sources */,
-				0135496A2896925400E6C89E /* Frameworks */,
-				0135496B2896925400E6C89E /* Resources */,
+				013549892896A35500E6C89E /* Sources */,
+				0135498A2896A35500E6C89E /* Frameworks */,
+				0135498B2896A35500E6C89E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PinchZoomImage;
+			name = ImageModifier;
 			packageProductDependencies = (
-				013549812896A12200E6C89E /* SDWebImageSwiftUI */,
+				013549A12896A3A700E6C89E /* SDWebImageSwiftUI */,
 			);
-			productName = PinchZoomImage;
-			productReference = 0135496D2896925400E6C89E /* PinchZoomImage.app */;
+			productName = ImageModifier;
+			productReference = 0135498D2896A35500E6C89E /* ImageModifier.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		013549652896925400E6C89E /* Project object */ = {
+		013549852896A35500E6C89E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					0135496C2896925400E6C89E = {
+					0135498C2896A35500E6C89E = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 013549682896925400E6C89E /* Build configuration list for PBXProject "PinchZoomImage" */;
+			buildConfigurationList = 013549882896A35500E6C89E /* Build configuration list for PBXProject "ImageModifier" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,46 +118,46 @@
 				en,
 				Base,
 			);
-			mainGroup = 013549642896925400E6C89E;
+			mainGroup = 013549842896A35500E6C89E;
 			packageReferences = (
-				013549802896A12200E6C89E /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				013549A02896A3A700E6C89E /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 			);
-			productRefGroup = 0135496E2896925400E6C89E /* Products */;
+			productRefGroup = 0135498E2896A35500E6C89E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0135496C2896925400E6C89E /* PinchZoomImage */,
+				0135498C2896A35500E6C89E /* ImageModifier */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0135496B2896925400E6C89E /* Resources */ = {
+		0135498B2896A35500E6C89E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				013549782896925600E6C89E /* Preview Assets.xcassets in Resources */,
-				013549752896925600E6C89E /* Assets.xcassets in Resources */,
+				013549982896A35600E6C89E /* Preview Assets.xcassets in Resources */,
+				013549952896A35600E6C89E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		013549692896925400E6C89E /* Sources */ = {
+		013549892896A35500E6C89E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				013549732896925400E6C89E /* ContentView.swift in Sources */,
-				013549712896925400E6C89E /* PinchZoomImageApp.swift in Sources */,
-				0135497F2896931500E6C89E /* ImageModifier.swift in Sources */,
+				013549932896A35500E6C89E /* ContentView.swift in Sources */,
+				013549912896A35500E6C89E /* ImageModifierApp.swift in Sources */,
+				0135499F2896A36700E6C89E /* ImageModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		013549792896925600E6C89E /* Debug */ = {
+		013549992896A35600E6C89E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -217,7 +217,7 @@
 			};
 			name = Debug;
 		};
-		0135497A2896925600E6C89E /* Release */ = {
+		0135499A2896A35600E6C89E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -271,18 +271,17 @@
 			};
 			name = Release;
 		};
-		0135497C2896925600E6C89E /* Debug */ = {
+		0135499C2896A35600E6C89E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"PinchZoomImage/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ImageModifier/Preview Content\"";
 				DEVELOPMENT_TEAM = PU87QU55T6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PinchZoomImage/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -293,7 +292,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gestures.PinchZoomImage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gestures.ImageModifier;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -301,18 +300,17 @@
 			};
 			name = Debug;
 		};
-		0135497D2896925600E6C89E /* Release */ = {
+		0135499D2896A35600E6C89E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"PinchZoomImage/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ImageModifier/Preview Content\"";
 				DEVELOPMENT_TEAM = PU87QU55T6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PinchZoomImage/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -323,7 +321,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gestures.PinchZoomImage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gestures.ImageModifier;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -334,20 +332,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		013549682896925400E6C89E /* Build configuration list for PBXProject "PinchZoomImage" */ = {
+		013549882896A35500E6C89E /* Build configuration list for PBXProject "ImageModifier" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				013549792896925600E6C89E /* Debug */,
-				0135497A2896925600E6C89E /* Release */,
+				013549992896A35600E6C89E /* Debug */,
+				0135499A2896A35600E6C89E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0135497B2896925600E6C89E /* Build configuration list for PBXNativeTarget "PinchZoomImage" */ = {
+		0135499B2896A35600E6C89E /* Build configuration list for PBXNativeTarget "ImageModifier" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0135497C2896925600E6C89E /* Debug */,
-				0135497D2896925600E6C89E /* Release */,
+				0135499C2896A35600E6C89E /* Debug */,
+				0135499D2896A35600E6C89E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -355,23 +353,23 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		013549802896A12200E6C89E /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+		013549A02896A3A700E6C89E /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
 			requirement = {
-				branch = master;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		013549812896A12200E6C89E /* SDWebImageSwiftUI */ = {
+		013549A12896A3A700E6C89E /* SDWebImageSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 013549802896A12200E6C89E /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			package = 013549A02896A3A700E6C89E /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
 			productName = SDWebImageSwiftUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 013549652896925400E6C89E /* Project object */;
+	rootObject = 013549852896A35500E6C89E /* Project object */;
 }

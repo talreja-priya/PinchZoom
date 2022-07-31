@@ -1,6 +1,6 @@
 //
-//  PinchZoomImageApp.swift
-//  PinchZoomImage
+//  ImageModifierApp.swift
+//  ImageModifier
 //
 //  Created by Priya Talreja on 31/07/22.
 //
@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct PinchZoomImageApp: App {
+struct ImageModifierApp: App {
     var body: some Scene {
         WindowGroup {
-          ContentView()
+            ContentView()
         }
     }
 }
